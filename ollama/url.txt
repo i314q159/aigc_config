@@ -1,1 +1,0 @@
-https://github.com/ollama/ollama/releases/latest/download/OllamaSetup.exe
