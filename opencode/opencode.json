@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": true,
+  "model": "minimax-m2.5-free",
+  "provider": {
+    "ollama": {
+      "models": {
+        "modelscope.cn/Qwen/Qwen3-8B-GGUF": {
+          "_launch": true,
+          "name": "modelscope.cn/Qwen/Qwen3-8B-GGUF"
+        }
+      },
+      "name": "local",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      }
+    }
+  },
+  "theme": "opencode"
+}
