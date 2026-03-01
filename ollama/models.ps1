@@ -1,10 +1,14 @@
-ollama pull huihui_ai/deepseek-r1-abliterated:8b
-ollama pull deepseek-r1:8b
-ollama pull llava:7b
+huihui_ai/deepseek-r1-abliterated:8b
+deepseek-r1:8b
 
-# opencode
-ollama pull qwen3-coder:30b
-ollama pull qwen3:8b
+llava:7b
 
-ollama pull modelscope.cn/Qwen/Qwen3-0.6B-GGUF
-ollama pull modelscope.cn/Qwen/Qwen3-8B-GGUF
+gemma3:4b
+
+# small
+tinyllama:1.1b
+smollm2:1.7b
+granite4:350m-h
+
+# vision-language
+qwen2.5vl:3b
